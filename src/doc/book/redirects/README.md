@@ -1,4 +1,4 @@
-% The Rust Programming Language
+# The Rust Programming Language
 
 There are two editions of "The Rust Programming Language":
 
