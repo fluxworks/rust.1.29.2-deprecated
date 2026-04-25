@@ -1,11 +1,11 @@
 ==============================================================================
-compiler_rt License
+compiler-builtins License
 ==============================================================================
 
-The compiler_rt library is dual licensed under both the University of Illinois
-"BSD-Like" license and the MIT license.  As a user of this code you may choose
-to use it under either license.  As a contributor, you agree to allow your code
-to be used under both.
+The compiler-builtins crate is dual licensed under both the University of
+Illinois "BSD-Like" license and the MIT license.  As a user of this code you may
+choose to use it under either license.  As a contributor, you agree to allow
+your code to be used under both.
 
 Full text of the relevant licenses is included below.
 
@@ -14,7 +14,7 @@ Full text of the relevant licenses is included below.
 University of Illinois/NCSA
 Open Source License
 
-Copyright (c) 2009-2018 by the contributors listed in CREDITS.TXT
+Copyright (c) 2009-2016 by the contributors listed in CREDITS.TXT
 
 All rights reserved.
 
