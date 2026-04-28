@@ -62,17 +62,17 @@ use lint::LintId;
 use lint::FutureIncompatibleInfo;
 
 mod bad_style;
-pub mod builtin;
+pub mod builtins;
 mod types;
 mod unused;
 
 use bad_style::*;
-use builtin::*;
+use builtins::*;
 use types::*;
 use unused::*;
 
 /// Useful for other parts of the compiler.
-pub use builtin::SoftLints;
+pub use builtins::SoftLints;
 
 /// Tell the `LintStore` about all the built-in lints (the ones
 /// defined in this crate and the ones defined in
