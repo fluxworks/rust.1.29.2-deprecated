@@ -1,0 +1,26 @@
+language: rust
+dist: trusty
+sudo: false
+branches:
+  except:
+  - staging.tmp
+  - trying.tmp
+cache: cargo
+os:
+- linux
+- osx
+rust:
+- nightly
+install: |
+    # Required for Racer autoconfiguration
+    rustup component add rust-src
+    rustup component add rust-analysis
+script: |
+  #!/bin/bash
+  set -e
+  cargo build -v
+  cargo test -v
+  set +e
+env:
+  global:
+    - RUTFLAGS=--cfg=enable_tooltip_tests
